@@ -15,9 +15,6 @@ Hello, my name is Rahaf Al-Jazzazi. I'm 24 years old. I graduated with a bachelo
 | Read02     | [Link](read02.md)    |
 | Read03a       | [Link](read03a.md) | 
 | Read03b     | [Link](read03b.md)    |
-<<<<<<< HEAD
 | Read04 | [Link](read04.md)|
-| Rea
-=======
-| Read04 | [Link](read04.md)|
->>>>>>> e2b6bb9778a24c1bc0ee9d6b7d5f4dbdefc866b8
+| Read05 | [Link](read05.md)|
+
