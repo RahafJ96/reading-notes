@@ -41,4 +41,3 @@ Function starting with…
 - "calc…" – calculate something,
 - "create…" – create something,
 - "check…" – check something and return a boolean, etc.
-
