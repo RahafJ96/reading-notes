@@ -50,3 +50,5 @@ Function starting with…
 - "calc…" – calculate something,
 - "create…" – create something,
 - "check…" – check something and return a boolean, etc.
+
+_for more information [Link](https://www.w3schools.com/js/js_functions.asp)_
