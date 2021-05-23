@@ -1,14 +1,10 @@
-# HTML 
-The main elements to access web:
-- Web Browser
-- Web server
-- Screeen Reader
+ # HTML & CSS
 
-### How the web works
-When you visit a website, the web server hosting that site could be anywhere in the world. In order for you to find the location of the web server, your browser will first connect to a Domain Name System (DNS) server.
+## HTML Layout
+For a long time, web page authors used <div> elements to group together related elements on the page (such as the elements that form a header, an article, footer or sidebar). Authors used class or id attributes to indicate the role of the <div> element in the structure of the page.
 
 ## HTML Structure
-HTML is *a markup language that defines the structure of your content. *
+HTML is *a markup language that defines the structure of your content.*
 
 **HTML elements** are the building blocks of HTML pages.
 
@@ -16,13 +12,27 @@ HTML is *a markup language that defines the structure of your content. *
 element is the root element of an HTML page
 - The lang attribute defines the language of the document
 - The element contains meta information about the document
-- The <title> element specifies a title for the document
+- The <title> element specifies a title for the document 
 element contains the visible page content
 
 
 ## HTML Extra Markup
-What is an HTML Element?
+- What is an HTML Element?
 An HTML element is defined by a start tag, some content, and an end tag:
+
+### The main elements to access web:
+- Web Browser
+- Web server
+- Screeen Reader
+
+### What is CSS?
+CSS stands for Cascading Style Sheets
+CSS describes how HTML elements are to be displayed on screen, paper, or in other media
+CSS saves a lot of work. It can control the layout of multiple web pages all at once
+External stylesheets are stored in CSS files
+
+### How the web works:
+When you visit a website, the web server hosting that site could be anywhere in the world. In order for you to find the location of the web server, your browser will first connect to a Domain Name System (DNS) server.
 
 - ### Some Important Tag Elements:
   - The `<html>` element is the root element of an HTML page.
@@ -31,8 +41,7 @@ An HTML element is defined by a start tag, some content, and an end tag:
   - The `<body>` element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
   - The `<h1>` element defines a large heading.
   - The `<p>` element defines a paragraph.
-## HTML Layout
-For a long time, web page authors used <div> elements to group together related elements on the page (such as the elements that form a header, an article, footer or sidebar). Authors used class or id attributes to indicate the role of the <div> element in the structure of the page.
+
 
 ### New HTML5 Layout Elements
 HTML5 introduces a new set of elements that allow you to divide up the parts of a page. The names of these elements indicate the kind of content you will find in them. They are still subject to change, but that has not stopped many web page authors using them already.
