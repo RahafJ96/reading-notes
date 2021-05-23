@@ -24,12 +24,8 @@ Hello, my name is Rahaf Al-Jazzazi. I'm 24 years old. I graduated with a bachelo
 ### Here is the notes for 201 Course, please check the table of contents below:
 
 ## Table of Contents for 201 course:
-| Assignments   | Links         |
-| ------------- |:-------------:|
-| Class 01 Intro       | [Link](102/read01.md) | 
-| Class 02      | [Link](102/read02.md)    |
-| Class 03       | [Link](102/read03a.md) | 
-| Class 04     | [Link](102/read03b.md)    |
-| Class 05 | [Link](102/read04.md)|
-| Class 06 | [Link](102/read05.md)|
-| Class 07 | [Link](102/read06.md)|
+|  Assignments | Links         |
+| -------------| :-------------:|
+| Class 01       Introductory HTML and JavaScript | [Link](201/class01.md) | 
+| Class 02   HTML Text, CSS Introduction, and Basic JavaScript Instructions  | [Link](201/class02.md)    |
+| Class 03        | [Link](201/class03.md) | 
