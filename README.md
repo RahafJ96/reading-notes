@@ -24,6 +24,7 @@ Hello, my name is Rahaf Al-Jazzazi. I'm 24 years old. I graduated with a bachelo
 ### Here is the notes for 201 Course, please check the table of contents below:
 
 ## Table of Contents for 201 course:
+
 | Assignments   | Links         |
 | ------------- |:-------------:|
 | Read01       | [Link](102/read01.md) | 
