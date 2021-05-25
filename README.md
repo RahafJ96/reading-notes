@@ -30,7 +30,7 @@ Hello, my name is Rahaf Al-Jazzazi. I'm 24 years old. I graduated with a bachelo
 | Class 01 Introductory HTML and JavaScript | [Link](201/class01.md)| 
 | Class 02 HTML Text, CSS Introduction, and Basic JavaScript Instructions | [Link](201/class02.md)|
 | Class 03 HTML Lists, Control Flow with JS, and the CSS Box Model | [Link](201/class03.md)| 
-| Class 04 | [Link](201/class04.md)|
+| Class 04  HTML Links, CSS Layout, JS Functions | [Link](201/class04.md)|
 | Class 05 | [Link](201/class05.md)|
 | Class 06 | [Link](201/class06.md)|
 | Class 07 | [Link](201/class07.md)| 
