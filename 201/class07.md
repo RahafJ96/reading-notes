@@ -1,5 +1,18 @@
 # Object-Oriented Programming, HTML Tables
 
+# Domain modeling 
+Domain Modelign is your organized and structured knowledge of the problem. The Domain Model should represent the vocabulary and key concepts of the problem domain and it should identify the relationships among all of the entities within the scope of the domain. Also, is the process of creating a conceptual model for a specific problem. And a domain model that's articulated well can verify and validate your understanding of that problem.
+
+- using the new keyword creates an object.
+- use this to initialize properties inside the object.
+- how the object will be stored in a variable for late use.
+
+Most of the time a domain model is illustrated with a set of class diagrams which may show:
+- domain objects or conceptual classes
+- associations between conceptual classes
+- attributes of conceptual classes
+To define the same properties between many objects, you’ll want to use a constructor function that will be explained next section.
+
 ## HTML Tables:
 The HTML `<table>` element represents tabular data — that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data.
 
@@ -110,3 +123,4 @@ function Human(firstName, lastName, age, job) {
         this.lastName = name; }; 
         }
 ```
+
