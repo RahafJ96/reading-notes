@@ -34,7 +34,7 @@ Hello, my name is Rahaf Al-Jazzazi. I'm 24 years old. I graduated with a bachelo
 | Class 05 - HTML Images; CSS Color & Text | [Link](201/class05.md)|
 | Class 06 - Problem Domain, Objects, and the DOM | [Link](201/class06.md)|
 | Class 07 - Object-Oriented Programming, HTML Tables| [Link](201/class07.md)| 
-| Class 08 | [Link](201/class08.md)|
+| Class 08 - More CSS Layout| [Link](201/class08.md)|
 | Class 09 | [Link](201/class09.md)| 
 | Class 10 | [Link](201/class10.md)|
 | Class 11 | [Link](201/class11.md)|
