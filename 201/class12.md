@@ -101,3 +101,42 @@ var myChart = new Chart(ctx, {
 });
 </script>
 ```
+
+#### Drawing a Path
+`Drawing a path`: A path is a list of points, connected by segments of lines that can be of different shapes, curved or not, of different width and of different color. A path, or even a subpath, can be closed. To make shapes using paths, we take some extra steps:
+
+1. **_First_, you create the path.**
+Then you use drawing commands to draw into the path.Once the path has been created, you can stroke or fill the path to render it.
+
+Colors If we want to apply colors to a shape, there are two important properties we can use:
+
+
+1. fillText(text, x, y, width, height)
+Fills a given text at the given (x,y) position. Optionally with a maximum width to draw.
+
+2. strokeRect(text, x, y, width, height)
+Strokes a given text at the given (x,y) position. Optionally with a maximum width to draw.
+
+3. clearText(x, y, width, height)
+Clears the specified rectangular area, making it fully transparent.
+
+
+#### Styling text
+- `font = value`
+The current text style being used when drawing text. This string uses the same syntax as the CSS font property. The default font is 10px sans-serif.
+- `textAlign = value`
+Text alignment setting. Possible values: start, end, left, right or center. The default value is start.
+- `textBaseline = value`
+Baseline alignment setting. Possible values: top, hanging, middle, alphabetic, ideographic, bottom. The default value is alphabetic.
+- `direction = value`
+Directionality. Possible values: ltr, rtl, inherit. The default value is inherit.
+
+![Image2](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_text/baselines.png)
+
+
+#### Colors
+
+- `fillStyle = color`
+Sets the style used when filling shapes.
+- `strokeStyle = color`
+Sets the style for shapes' outlines.
