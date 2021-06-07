@@ -37,8 +37,8 @@ Hello, my name is Rahaf Al-Jazzazi. I'm 24 years old. I graduated with a bachelo
 | Class 08 - More CSS Layout| [Link](201/class08.md)|
 | Class 09 - Forms and JS Events| [Link](201/class09.md)| 
 | Class 10 - JS Debugging| [Link](201/class10.md)|
-| Class 11 - Audio, Video, Images| [Link](201/class11.md)|
-| Class 12 - Chart.js, Canvas| [Link](201/class12.md)|
-| Class 13 | [Link](201/class13.md)|
+| Class 11 - Audio, Video, Images | [Link](201/class11.md)|
+| Class 12 - Chart.js, Canvas | [Link](201/class12.md)|
+| Class 13 - Local Storage | [Link](201/class13.md)|
 | Class 14 | [Link](201/class14.md)|
 | Class 15 | [Link](201/class15.md)|
