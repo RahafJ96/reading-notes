@@ -40,5 +40,6 @@ Hello, my name is Rahaf Al-Jazzazi. I'm 24 years old. I graduated with a bachelo
 | Class 11 - Audio, Video, Images | [Link](201/class11.md)|
 | Class 12 - Chart.js, Canvas | [Link](201/class12.md)|
 | Class 13 - Local Storage | [Link](201/class13.md)|
-| Class 14 | [Link](201/class14.md)|
+| Class 14a - CSS Transforms, Transitions, and Animations | [Link](201/class14a.md)|
+| Class 14b - What Google Learned About Teams| [Link](201/class14b.md)|
 | Class 15 | [Link](201/class15.md)|
