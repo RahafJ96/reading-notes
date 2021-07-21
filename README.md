@@ -67,4 +67,4 @@ Hello, my name is Rahaf Al-Jazzazi. I'm 24 years old. I graduated with a bachelo
 | Read 12 - Mongo and Mongoose | [Link](301/read12.md)|
 | Read 13 - CRUD| [Link](301/read13.md)|
 | Read 14 - Project Ideas | [Link](301/read14.md)|
-| Read 14 - Project Kickoff | [Link](301/read15.md)|
+| Read 15 - Project Kickoff | [Link](301/read15.md)|
