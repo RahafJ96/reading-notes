@@ -3,6 +3,7 @@
 Hello, my name is Rahaf Al-Jazzazi. I'm 24 years old. I graduated with a bachelor degree in Electrical and Communication engineering from German Jordanian University. I got deeper to programming in my internship and I'm here hoping that I can gain more knowledge and be a good developer.
 #### [My GitHub Account](https://github.com/RahafJ96) 
 
+___
 ## 102
 
 
@@ -18,7 +19,7 @@ Hello, my name is Rahaf Al-Jazzazi. I'm 24 years old. I graduated with a bachelo
 | Read 05 - Operators and Loops | [Link](102/read05.md)|
 | Read 06 - Functions | [Link](102/read06.md)|
 
-
+___
 ## 201
 
 ### Here is the notes for 201 Course, please check the table of contents below:
@@ -44,7 +45,7 @@ Hello, my name is Rahaf Al-Jazzazi. I'm 24 years old. I graduated with a bachelo
 | Class 14b - What Google Learned About Teams| [Link](201/class14b.md)|
 
 
-
+___
 ## 301
 
 ### Here is the notes for 301 Course, please check the table of contents below:
