@@ -10,20 +10,20 @@ Hello, my name is Rahaf Al-Jazzazi. I'm 24 years old. I graduated with a bachelo
 
 | Assignments   | Links         |
 | ------------- |:-------------:|
-| Read01       | [Link](102/read01.md) | 
-| Read02     | [Link](102/read02.md)    |
-| Read03a       | [Link](102/read03a.md) | 
-| Read03b     | [Link](102/read03b.md)    |
-| Read04 | [Link](102/read04.md)|
-| Read05 | [Link](102/read05.md)|
-| Read06 | [Link](102/read06.md)|
+| Read 01 - Learning Markdown       | [Link](102/read01.md) | 
+| Read 02 - Revisions and the Cloud    | [Link](102/read02.md)    |
+| Read 03a - Structure web pages with HTML       | [Link](102/read03a.md) | 
+| Read 03b - Design web pages with CSS	     | [Link](102/read03b.md)    |
+| Read 04 - Programming with JavaScript | [Link](102/read04.md)|
+| Read 05 - Operators and Loops | [Link](102/read05.md)|
+| Read 06 - Functions | [Link](102/read06.md)|
 
 
 ## 201
 
 ### Here is the notes for 201 Course, please check the table of contents below:
 
-## Table of Contents for 201 course:
+### **Table of Contents for 201 course:**
 
 | Assignments   | Links         |
 | ------------- |:-------------:|
@@ -42,4 +42,29 @@ Hello, my name is Rahaf Al-Jazzazi. I'm 24 years old. I graduated with a bachelo
 | Class 13 - Local Storage | [Link](201/class13.md)|
 | Class 14a - CSS Transforms, Transitions, and Animations | [Link](201/class14a.md)|
 | Class 14b - What Google Learned About Teams| [Link](201/class14b.md)|
-| Class 15 | [Link](201/class15.md)|
+
+
+
+## 301
+
+### Here is the notes for 301 Course, please check the table of contents below:
+
+### **Table of Contents for 301 course:**
+
+| Assignments   | Links         |
+| ------------- |:-------------:|
+| Read 01 - Introduction to React and Components       | [Link](301/read01.md) | 
+| Read 02 - State and Props   | [Link](301/read02.md)    |
+| Read 03 - Passing Functions as Props     | [Link](301/read03.md) | 
+| Read 04 - React and Forms     | [Link](301/read04.md)    |
+| Read 05 - Putting it all together | [Link](301/read05.md)|
+| Read 06 - NODE.JS | [Link](301/read06.md)|
+| Read 07 - REST | [Link](301/read07.md)|
+| Read 08 - APIs    | [Link](301/read08.md) | 
+| Read 09 - FUNCTIONAL PROGRAMMING  | [Link](301/read09.md)    |
+| Read 10 - In memory storage      | [Link](301/read10.md) | 
+| Read 11 - Authentication    | [Link](301/read011.md)    |
+| Read 12 - Mongo and Mongoose | [Link](301/read12.md)|
+| Read 13 - CRUD| [Link](301/read13.md)|
+| Read 14 - Project Ideas | [Link](301/read14.md)|
+| Read 14 - Project Kickoff | [Link](301/read15.md)|
