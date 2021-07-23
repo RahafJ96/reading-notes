@@ -4,8 +4,7 @@ Hello, my name is Rahaf Al-Jazzazi. I'm 24 years old. I graduated with a bachelo
 #### [My GitHub Account](https://github.com/RahafJ96) 
 
 ___
-## 102
-
+## Code 102 - Intro to Software Development
 
 ## Table of Contents for 102 course:
 
@@ -20,7 +19,7 @@ ___
 | Read 06 - Functions | [Link](102/read06.md)|
 
 ___
-## 201
+## Code 201 - Foundations of Software Development
 
 ### Here is the notes for 201 Course, please check the table of contents below:
 
@@ -46,7 +45,7 @@ ___
 
 
 ___
-## 301
+## Code 301 - Intermediate Software Development
 
 ### Here is the notes for 301 Course, please check the table of contents below:
 
