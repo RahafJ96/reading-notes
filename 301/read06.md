@@ -26,7 +26,7 @@
 - Automatic code linting and style checking
 
 
-# 6 Reasons for Pair Programming
+# [6 Reasons for Pair Programming](https://www.codefellows.org/blog/6-reasons-for-pair-programming/)
 ## 1. What are the 6 reasons for pair programming?
 - Social skills
 - Greater efficiency
