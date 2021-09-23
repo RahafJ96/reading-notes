@@ -68,3 +68,58 @@ ___
 | Read 13 - CRUD| [Link](301/read13.md)|
 | Read 14 - Project Ideas | [Link](301/read14.md)|
 | Read 15 - Project Kickoff | [Link](301/read15.md)|
+
+___
+## Code 401 - Advanced Software Development
+
+### Here is the notes for 401 Course, please check the table of contents below:
+
+### **Table of Contents for 301 course:**
+
+| Assignments   | Links         |
+| ------------- |:-------------:|
+| Read 01 - Java Basics       | [Link](401/read01.md) | 
+| Read 02 - Arrays, Loops, Imports   | [Link](401/read02.md)    |
+| Read 03 - Maps, primitives, File I/O     | [Link](401/read03.md) | 
+| Read 04 - OOP   | [Link](401/read04.md)    |
+| Read 05 - Linked Lists | [Link](401/read05.md)|
+| Read 06 - Inheritance and Interfaces | [Link](401/read06.md)|
+| Read 07 - Inheritance day 2 | [Link](401/read07.md)|
+| Read 08 - OO Design    | [Link](401/read08.md) | 
+| Read 09 - WRRC and Java  | [Link](401/read09.md)    |
+| Read 10 - Stacks & Queues | [Link](401/read10.md) | 
+| Read 11 - Spring    | [Link](401/read11.md)    |
+| Read 12 - Spring RESTful Routing & Static Files	 | [Link](401/read12.md)|
+| Read 13 - Related Resources and Integration Testing | [Link](401/read13.md)|
+| Read 14 - Trees | [Link](401/read14.md)|
+| Read 15 - -- | [Link](401/read15.md)|
+| Read 16 - Spring Authentication | [Link](401/read16.md)|
+| Read 17 - Spring Authentication | [Link](401/read17.md)|
+| Read 18 - Web App Security | [Link](401/read18.md)|
+| Read 19 - Spring and Sockets | [Link](401/read19.md)|
+| Read 26 - Android Fundamentals | [Link](401/read20.md)|
+| Read 27 - Intents, Activities, and SharedPreferences | [Link](401/read21.md)|
+| Read 28 - RecyclerView | [Link](401/read22.md)|
+| Read 29 - Room | [Link](401/read23.md)|
+| Read 30 - Hash Tables | [Link](401/read24.md)|
+| Read 31 - Espresso | [Link](401/read25.md)|
+| Read 32 - Serverless and Amplify | [Link](401/read26.md)|
+| Read 33 - GraphQL @connection | [Link](401/read27.md)|
+| Read 34 - Monetization | [Link](401/read28.md)|
+| Read 35 - Graphs | [Link](401/read29.md)|
+| Read 36 - Cognito | [Link](401/read30.md)|
+| Read 37 - S3 | [Link](401/read30.md)|
+| Read 38 - Notifications | [Link](401/read30.md)|
+| Read 39 - Kinesis | [Link](401/read30.md)|
+| Read 40 -   ----  | [Link](401/read30.md)|
+| Read 41 - Intent Filters | [Link](401/read30.md)|
+| Read 42 - Location | [Link](401/read30.md)|
+| Read 42 - Class 42 - Ethics in Tech | [Link](401/read30.md)|
+| Read 43 - Kinesis & Analytics | [Link](401/read30.md)|
+| Read 43 - Class 43 - OSS Contributions | [Link](401/read30.md)|
+| Read 44 - Monetization | [Link](401/read30.md)|
+
+
+
+
+
