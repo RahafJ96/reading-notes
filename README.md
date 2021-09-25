@@ -118,8 +118,3 @@ ___
 | Read 43 - Kinesis & Analytics | [Link](401/read30.md)|
 | Read 43 - Class 43 - OSS Contributions | [Link](401/read30.md)|
 | Read 44 - Monetization | [Link](401/read30.md)|
-
-
-
-
-
