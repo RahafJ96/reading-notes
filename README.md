@@ -117,4 +117,4 @@ ___
 | Read 42 - Class 42 - Ethics in Tech | [Link](401/read30.md)|
 | Read 43 - Kinesis & Analytics | [Link](401/read30.md)|
 | Read 43 - Class 43 - OSS Contributions | [Link](401/read30.md)|
-| Read 44 - Monetization | [Link](401/read30.md)|
+| Read 44 - Monetiza`tion | [Link](401/read30.md)|
