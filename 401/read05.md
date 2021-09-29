@@ -1,4 +1,8 @@
-# Linked List
+# [Linked List](https://medium.com/basecs/whats-a-linked-list-anyway-part-1-d8b7e6508b9d)
+
+
+
+
 
 ### Definitios : 
 
@@ -17,22 +21,6 @@ If you want to add a node after a given value, follow these steps:
 6. Then change the reference for the current node to the new node
 
 
-### Terminology :
-
-- `LinkeList :` A data structure that have data and refers to the next node .
-
-- `Singly :` refers to the number of references the node have the singly refers to the next node .
-
-- `doubly :` have two references next and previous references .
-
-- `Nodes :` items and contents of linkedlist that have data and reference lives inside it . 
-
-- `Next :` refers to the next item in the linked list .
-
-- `Head :` is the first node in the linked list .
-
-- `Current :` is the node that I am at .
-
 
 ### Implementation :
 - When traversing a linked list we cant use a for or for each loop .
@@ -46,46 +34,6 @@ If you want to add a node after a given value, follow these steps:
 ### Linear data structures :
 - Linear data structure is modeling the data sequentially so to reach the last one you have to traverse each element .
 - Non - linear data structres are non-sequential data representation .
-
-### Memory management :
-
-- The difference between arrays and linked lists is the way they use memory in our machine .
-
-- Arrays use static memory distribution : That means when declared it will allocate memroy side by side int the same place of memory .
-
-- LinkedLists uses dynamic memroy allocation : when created it will alocate memory scattered and might not be in the same place .
-
-- Conclusion that linked list makes memory management more efficent .
-
-**A node only knows it's data and the reference of the next node it's connected to .**
-
-- Lists are dynamic in the term of size .
-
-
-### Shapes and sizes : 
-
-Singly Linked List : The simplest type aranges the data in sequential term we can traverse from the beginning to the end . 
-
-Doubly Linked List : Have two references in each node the reference to the next and previous node more dynaymicall traversable .
-
-
-Circular Linked List : Have a tail node that points to the first node and each nodes is connected with another node even the last node is connected to the first one .
-
-
-### Big O :
-
-- Is the way to calculate how efficent an algorithm is .
-
-- It's used to determine how effictive an algorithm is in the terms of time and space .
-
-- Big O referes to an order and n refers to number of elements in the algorithm .
-
-### Growing a linked list : 
-
-- Linked lists consists of memory allocations .
-
-- To address an element of linked list we just need to rearrange our pointers .
-
 
 ### When to use list and when not :
 
@@ -102,3 +50,11 @@ Circular Linked List : Have a tail node that points to the first node and each n
 - Only allocates memory as required during the runtime .
 
 - Finding an element requires traversal through the linked list .
+
+### [Big O :](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-05/resources/big_oh.html)
+
+- Is the way to calculate how efficent an algorithm is .
+
+- It's used to determine how effictive an algorithm is in the terms of time and space .
+
+- Big O referes to an order and n refers to number of elements in the algorithm .
