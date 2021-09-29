@@ -4,9 +4,9 @@
 
 
 
-### Definitios : 
+### Definitions : 
 
-- Is a grou of nodes that are connected to each other , and each node have data and reference that refers to the next node .
+- Is a group of nodes that are connected to each other , and each node have data and reference that refers to the next node .
 - Two types of linked lists : singly , doubly .
 
 ## Add a node after a given value:
@@ -24,7 +24,7 @@ If you want to add a node after a given value, follow these steps:
 
 ### Implementation :
 - When traversing a linked list we cant use a for or for each loop .
-- We use the next reference which will guid us where the next node occurs .
+- We use the next reference which will guide us where the next node occurs .
 - A good traversing can be implemented using the while loop until the next reference is null .
 - if we reached a node that is null A nullReferenceException will be thrown .
 - The current will guide us where are we on the node list .
@@ -35,7 +35,7 @@ If you want to add a node after a given value, follow these steps:
 - Linear data structure is modeling the data sequentially so to reach the last one you have to traverse each element .
 - Non - linear data structres are non-sequential data representation .
 
-### When to use list and when not :
+### When to use list and when not:
 
 - Linked list is a good approach when adding or removing most elements .
 
@@ -53,8 +53,8 @@ If you want to add a node after a given value, follow these steps:
 
 ### [Big O :](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-05/resources/big_oh.html)
 
-- Is the way to calculate how efficent an algorithm is .
+- Is the way to calculate how efficient an algorithm is .
 
-- It's used to determine how effictive an algorithm is in the terms of time and space .
+- It’s used to determine how effective an algorithm is in the terms of time and space .
 
-- Big O referes to an order and n refers to number of elements in the algorithm .
+- `Big O` referees to an order and n refers to number of elements in the algorithm .
