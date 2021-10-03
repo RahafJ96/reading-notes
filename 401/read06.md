@@ -88,7 +88,7 @@ public interface OperateCar {
 - A subclass does not inherit the private members of its parent class.
 
 ```java
-ublic class MountainBike extends Bicycle {
+public class MountainBike extends Bicycle {
         
     // the MountainBike subclass adds one field
     public int seatHeight;
@@ -118,4 +118,4 @@ ublic class MountainBike extends Bicycle {
 3. You can make a logical test as to the type of a particular object using the instanceof operator. This can save you from a runtime error owing to an improper cast
 4. You can prevent a class from being subclassed by using the final keyword in the class's declaration.
 5. you can prevent a method from being overridden by subclasses by declaring it as a final method.
-6. An abstract class can only be subclassed; it cannot be instantiated
+6. An abstract class can only be subclassed; it cannot be instantiated.
