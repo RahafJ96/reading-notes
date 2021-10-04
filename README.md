@@ -84,7 +84,6 @@ ___
 | Read 04 - OOP   | [Link](401/read04.md)    |
 | Read 05 - Linked Lists | [Link](401/read05.md)|
 | Read 06 - Inheritance and Interfaces | [Link](401/read06.md)|
-| Read 07 - Inheritance day 2 | [Link](401/read07.md)|
 | Read 08 - OO Design    | [Link](401/read08.md) | 
 | Read 09 - WRRC and Java  | [Link](401/read09.md)    |
 | Read 10 - Stacks & Queues | [Link](401/read10.md) | 

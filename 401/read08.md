@@ -1,43 +1,63 @@
-# APIs
+# OO Design
+
+- ***Single-Responsibility Principle***
+
+A class should have one and only one reason to change, meaning that a class should have only one job.
+
+- ***Open-Closed Principle***
+
+Objects or entities should be open for extension but closed for modification.
+
+- ***Liskov Substitution Principle***
+
+Let q(x) be a property provable about objects of x of type T. Then q(y) should be provable for objects y of type S where S is a subtype of T.
+
+- ***Interface Segregation Principle***
+
+A client should never be forced to implement an interface that it doesn’t use, or clients shouldn’t be forced to depend on methods they do not use.
+
+- ***Dependency Inversion Principle***
+
+Entities must depend on abstractions, not on concretions. It states that the high-level module must not depend on the low-level module, but they should depend on abstractions.
+
+## **SOLID :** 
+stands for the five principles in OOD that considers maintaining , refactoring , debugging , avoid code smells principles .
 
 
-## API Design Best Practices
+### **S - Single-responsiblity Principle :**
+- A class should have one reason to change (one functionalitiy) .
 
-#### 1. What does REST stand for?
+- Each class should be concerened about it's own funcionality only .
 
-- Representational state transfer.
+- In real life imagine important tasks that depends on unrelated tasks .
 
-#### 2. REST APIs are designed around a 
-_2004_.
+### **O - Open-closed Principle : Objects or instances should be open for extension and closed for modification .**
+- That means we should be able to extend the class without modifiying it .
 
-#### 3. What is an identifer of a resource? Give an example.
+- To come across Open closed principle Interfaces should be implemented .
 
-- It is URI, uniform resource identifier. 
+- When using interfaces functionality can be extended without modifiying the class itself .
 
-#### 4. What are the most common HTTP verbs?
+- extending the bilities in phone without having the access to modify it .
 
 
-- The most common operations are GET, POST, PUT, PATCH, and DELETE.
+### **L - Liskov Substitution Principle : Every derived class can be substituted from it's parent class .**
+- The child class should be combatible with it's parent functionality and that what is liskov principle is about .
 
-#### 5. What should the URIs be based on?
+- Ensures that each child class is able to implement the parents attitude and behavior .
 
-- I'm not sure, but i think based on the data itself in API and the type of service also that provided by the API.
 
-#### 6. Give an example of a good URl
-- like : */customers/1/orders/* , if i need the customers and will make the URI makes sense to the data requested by the user. 
+### **I - Interface Segregation Principle :You shouldn't force a user to implement useless methods which he wouldn't use .**
+- Making interfaces can divide the task into the classes that needs it .
 
-#### 7. What does it mean to have a ‘chatty’ web API? Is this a good or a bad thing?
+- Making interfaces serves a specific group or classes .
 
-- When you make the client makes many requests to get a small amuont of data for each request (based on organizing the data in your API), this will make a load on your server and you have to aviod that. for sure it is bad thing.
+- Managing the attitude of classes by interfaces .
 
-#### 8. What status code does a successful `GET` request return?
-- Status code 200 
+- It's about depending on smaller useful interface other than one big interface and implementing each method when using it or not .
 
-#### 9. What status code does an unsuccessful `GET` request return?
-- Status code 404 
 
-#### 10. What status code does a successful `POST` request return?
-- Status code 201 
+### **D - Dependency Inversion Principle : Entities should be abstracted and decoupled .**
+- both high level and low level modules depends on abstraction .
 
-#### 11. What status code does a successful `DELETE` request return?
-- Status code 204 
+- This principle is concerned with abstraction and not counting on another class or (sub classes ) .
