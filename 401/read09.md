@@ -45,11 +45,11 @@
 ### **Tearing Down and Cleaning Up**
 
 1. Once the response has been fully delivered, the client sends a FIN packet at the TCP level, to which the server responds with an ACK, and then generally sends a FIN of its own, which the client responds to with its own ACK signal.
-2. browser begins processing what it has received.
+2. Browser begins processing what it has received.
 <hr>
 
 ## **Do a Simple HTTP Request in Java**
 
-In this quick tutorial, we present a way of performing HTTP requests in Java — by using the built-in Java class HttpUrlConnection.
+An `HTTP` request. An HttpRequest instance is built through an HttpRequest builder. An HttpRequest builder is obtained from one of the newBuilder methods. A request's URI , headers, and body can be set. Request bodies are provided through a BodyPublisher supplied to one of the `POST` , `PUT` or method methods.
 
 > *Note that starting with JDK 11, Java provides a new API for performing HTTP requests, which is meant as a replacement for the HttpUrlConnection, the HttpClient API.*
