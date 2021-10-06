@@ -1,4 +1,4 @@
-# Read: Stacks & Queues
+# Stacks & Queues
 
 ## What is Stack?
 
