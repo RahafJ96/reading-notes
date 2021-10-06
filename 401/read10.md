@@ -1,79 +1,36 @@
-# In memory storage 
+# Read: Stacks & Queues
 
-## [Understanding the JavaScript Call Stack](https://www.freecodecamp.org/news/understanding-the-javascript-call-stack-861e41ae61d4/) 
+## What is Stack?
 
-#### 1. What is a `call`?
+  - A stack is a data structure that consists of `Nodes`. Each `Node` references the next Node in the stack, but does not reference its previous.
 
-- When a function is invoked 
+### Common terminology for a stack:
 
+  - `Push` -> Nodes or items that are put into the stack are pushed
+  - `Pop` -> Nodes or items that are removed from the stack are popped.
+  - `Top` -> This is the top of the stack.
+  - `Peek` -> When you peek you will view the value of the top Node in the stack.
+  - `IsEmpty` -> returns true when stack is empty otherwise returns false.
 
-#### 2. How many `calls` can happen at once?
+### Stacks follow these concepts:
 
-- one at a time
+  - `FILO` (First In Last Out): This means that the first item added in the stack will be the last item popped out of the stack.
+  - `LIFO` (Last In First Out):This means that the last item added to the stack will be the first item popped out of the stack.
 
-#### 3. What does `LIFO` mean?
+## What is a Queue
 
-- When we say that the call stack, operates by the data structure principle of Last In, First Out, it means that the last function that gets pushed into the stack is the first to be pop out, when the function returns.
+  - collection of entities that are maintained in a sequence and can be modified by the addition of entities at one end of the sequence and the removal of entities from the other end of the seque
 
-#### 4. Draw an example of a call stack and the functions that would need to be invoked to generate that call stack.
+### Common terminology for a queue:
+  - `Enqueue` -> Nodes or items that are added to the queue.
+  - `Dequeue` -> Nodes or items that are removed from the queue.
+  - `Front` -> This is the front/first Node of the queue.
+  - `Rear` -> This is the rear/last Node of the queue.
+  - `Peek` -> When you peek you will view the value of the front Node in the queue.
+  - `IsEmpty` -> returns true when queue is empty otherwise returns false.
 
-```javascript
-function firstFunction(){
-  console.log("Hello from firstFunction");
-}
+### Queues follow these concepts:
 
-function secondFunction(){
-  firstFunction();
-  console.log("The end from secondFunction");
-}
+  - `FIFO` (First In First Out): This means that the first item in the queue will be the first item out of the queue.
 
-secondFunction();
-```
-
-
-#### 5. What causes a Stack Overflow?
-
-- A stack overflow occurs when there is a recursive function (a function that calls itself) without an exit point. The browser (hosting environment) has a maximum stack call that it can accomodate before throwing a stack error. 
-
-```javascript
-function callMyself(){
-  callMyself();
-}
-
-callMyself();
-```
-
-
-## [JavaScript error messages](https://codeburst.io/javascript-error-messages-debugging-d23f84f0ae7c) 
-
-
-
-#### 1. What is a `refrence error`?
-
-- when you try to use a variable that is not yet declared
-
-- the fix is as simple has declaring the variable before any declaration is made.
-
-#### 2. What is a `syntax error`?
-
--  when you have something that cannot be parsed in terms of syntax 
-
-- This can be solved by just fixing the syntax
-
-
-#### 3. What is a `range error`?
-
-- Try to manipulate an object with some kind of length and give it an invalid length and this kind of errors will show up. 
-
-
-#### 4. What is a `tyep error`?
-
-- when the types (number, string and so on) you are trying to use or access are incompatible 
-
-#### 5. What is a `breakpoint`?
-
-- can also be achieved by putting a debugger statement in your code in the line you want to break 
-- this is awesome for when you want to debug huge cycles for specific values
-
-#### 6. What does the word `debugger` do in your code?
-- The breakpoint can also be achieved
+  - `LILO` (Last In Last Out): This means that the last item in the queue will be the last item out of the queue.
