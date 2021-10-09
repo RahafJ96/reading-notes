@@ -1,70 +1,71 @@
-#  Authentication
+# Spring
+
+## **[Spring App Basics](https://spring.io/guides/gs/serving-web-content/)**
+
+### Starting with Spring Initializr
+
+- If you use Gradle, visit the [Spring Initializr](https://start.spring.io/) to generate a new project with the required dependencies (Spring Web, Thymeleaf, and Spring Boot DevTools).
+
+### Spring Boot Devtools
+To speed up this refresh cycle, *Spring Boot* offers with a handy module known as **spring-boot-devtools**. Spring Boot Devtools:
+- Enables hot swapping(replace without rebooting the system).
+- Switches template engines to disable caching.
+- Enables LiveReload to automatically refresh the browser.
+-others
+
+### Run the Application
+- @Configuration: Tags the class as a source of bean definitions for the application context.
+
+### Test the Application
+- Provide a name query string parameter by visiting http://localhost:8080/greeting?name=User. 
+
+- The **index.html** resource is special because, if it exists, it is used as a "`welcome page,"serving-web-content/ which means it is served up as the root resource (that is, at `http://localhost:8080/
+- When you restart the application, you will see the HTML at http://localhost:8080/.
+
+### Spring Boot Devtools
+- Enables [hot swapping](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#howto-hotswapping).
+- Switches template engines to disable caching.
+- Enables LiveReload to automatically refresh the browser.
+- Other reasonable defaults based on development instead of production.
+
+<hr>
+
+## **[Spring MVC and Thymeleaf](https://www.thymeleaf.org/doc/articles/springmvcaccessdata.html)**
+
+### **Spring model attributes:**
+
+`Spring MVC` calls the pieces of data that can be accessed during the execution of views model attributes. The equivalent term in Thymeleaf language is context variables.
 
 
+**There are several ways of adding model attributes to a view in Spring MVC.** *Below you will find some common cases:*
 
-## [What is OAuth](https://www.csoonline.com/article/3216404/what-is-oauth-how-the-open-authorization-framework-works.html)
+- Add attribute to Model via its addAttribute method:
 
+  ```java
+    @RequestMapping(value = "message", method = RequestMethod.GET)
+        public String messages(Model model) {
+            model.addAttribute("messages", messageRepository.findAll());
+            return "message/list";
+        }
+  ```
 
-1. **What is OAuth?**
-- OAuth is an open-standard authorization protocol or framework that describes how unrelated servers and services can safely allow authenticated access to their assets without actually sharing the initial
+- Return ModelAndView with model attributes included:
 
-2. **Give an example of what using OAuth would look like.**
+  ```java
+   @RequestMapping(value = "message", method = RequestMethod.GET)
+        public ModelAndView messages() {
+            ModelAndView mav = new ModelAndView("message/list");
+            mav.addObject("messages", messageRepository.findAll());
+            return mav;
+        }
+  ```
 
-- The simplest example of OAuth is when you go to log onto a website and it offers one or more opportunities to log on using another website’s/service’s logon. You then click on the button linked to the other website, the other website authenticates you, and the website you were originally connecting to logs you on itself afterward using permission gained from the second website
+- Expose common attributes via methods annotated with @ModelAttribute:
 
-
-3. **How does OAuth work? What are the steps that it takes to authenticate the user?**
-
-
-- The first website connects to the second website on behalf of the user, using OAuth, providing the user’s verified identity.
-- The second site generates a one-time token and a one-time secret unique to the transaction and parties involved.
-- The first site gives this token and secret to the initiating user’s client software.
-- The client’s software presents the request token and secret to their authorization provider (which may or may not be the second site).
-- If not already authenticated to the authorization provider, the client may be asked to authenticate. After authentication, the client is asked to approve the authorization transaction to the second website.
-- The user approves (or their software silently approves) a particular transaction type at the first website.
-- The user is given an approved access token (notice it’s no longer a request token).
-- The user gives the approved access token to the first website.
-- The first website gives the access token to the second website as proof of authentication on behalf of the user.
-- The second website lets the first website access their site on behalf of the user.
-
-
-
-4. **What is OpenID?**
-
-- OpenID is for humans logging into machines, OAuth is for machines logging into machines on behalf of humans.
-
-
-
-## [Authorization and Authentication flows](https://auth0.com/docs/flows)
-
-
-
-1. **What is the difference between authorization and authentication?**
-
-- Authentication confirms that users are who they say they are. Authorization gives those users permission to access a resource.
-
-2. **What is Authorization Code Flow?**
-
-- exchanges an Authorization Code for a token.
-
-3. **What is Authorization Code Flow with Proof Key for Code Exchange (PKCE)?**
-
-- provides a version of the Authorization Code Flow
-
-4. **What is Implicit Flow with Form Post?**
-
-- is intended for Public Clients, or applications which are unable to securely store Client Secrets.
-
-5. **What is Client Credentials Flow?**
-
-- is a server to server flow. There is no user authentication involved in the process. In fact there is no user at all, the resulting access tokens will not contain a user, but will instead contain the Client ID as subject (if not configured otherwise).
-
-6. **What is Device Authorization Flow?**
-
-- is an OAuth 2.0 extension that enables devices with no browser or limited input capability to obtain an access token. This is commonly seen on Apple TV apps, or devices like hardware encoders that can stream video to a YouTube channel.
-
-7. **What is Resource Owner Password Flow?**
-
-- The Resource Owner Password Credentials flow allows exchanging the username and password of a user for an access token and, optionally, 
-- The primary difference is that the user’s password is accessible to the application. This requires strong trust of the application by the user.
-
+  ```java
+      @ModelAttribute("messages")
+        public List<Message> messages() {
+            return messageRepository.findAll();
+        }
+  ```
+<hr>
