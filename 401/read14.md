@@ -1,87 +1,88 @@
-# **Trees**
+# BCrypt
 
-## Common Terminology
+## Hashed password solutions fall short
+Many password solutions simply are not good enough and put your data and resources at risk.
 
-- `Node` - A Tree node is a component which may contain it’s own values, and references to other nodes
-- `Root` - The root is the node at the beginning of the tree
-- `K` - A number that specifies the maximum number of children any node may have in a k-ary tree. In a binary tree, k = 2.
-- `Left` - A reference to one child node, in a binary tree
-- `Right` - A reference to the other child node, in a binary tree
-- `Edge` - The edge in a tree is the link between a parent and child node
-- `Leaf` - A leaf is a node that does not have any children
-- `Height` - The height of a tree is the number of edges from the root to the furthest leaf
+1. **Plain text passwords:**
+>As its name infers, a plain text password makes use of only letters. Should a hacker gain access to passwords such as these, they can easily pose as a user on your system.
 
-## Traversals
-
-- An important aspect of trees is how to traverse them.
-- Traversing a tree allows us to search for a node, print out the contents of a tree, and much more! There are two categories of traversals when it comes to trees: `Depth First`, `Breadth First`.
-
-### Depth First
-
-- Depth first traversal is where we prioritize going through the depth (height) of the tree first.
-- There are multiple ways to carry out depth first traversal, and each method changes the order in which we search/print the root.
-- Here are three methods for depth first traversal:
-
-`Pre-order: root >> left >> right`
-`In-order: left >> root >> right`
-`Post-order: left >> right >> root`
-
-### Breadth First
-
-Breadth first traversal iterates through the tree by going through each level of the tree node-by-node.
-
-Traditionally, breadth first traversal uses a queue (instead of the call stack via recursion) to traverse the width/breadth of the tree.
+2. One way hash
+> With a one-way hash password, a server does not store plain text passwords to authenticate a user. Here, a password has a hashing algorithm applied to it to make it more secure. 
 
 
-## Binary Tree Vs K-ary Trees
+3. ‘Salting’ the password
+> A ‘salt’ adds a very long string of bytes to the password. So even though a hacker might gain access to one-way hashed passwords, they should not be able to guess the ‘salt’ string.
 
-- In all of our examples, we’ve been using a Binary Tree.
-- Trees can have any number of children per node, but Binary Trees restrict the number of children to two (hence our left and right children).
+4. Random ‘salt’ for each user
+>  This will increase encryption significantly as hackers will have to try to find a password for a single user at a time.
 
-### K-ary Trees
 
-- If Nodes are able have more than 2 child nodes, we call the tree that contains them a `K-ary` Tree
-- In this type of tree we use `K` to refer to the maximum number of children that each Node is able to have.
+## The BCrypt Solution
 
-#### readth First Traversal:
+- `BCrypt` is based on the Blowfish block cipher cryptomatic algorithm and takes the form of an adaptive hash function.
+- Using a `Key Factor`, `BCrypt` is able to adjust the cost of hashing. With Key Factor changes, the hash output can be influenced.
+- This Key Factor will continue to be a key feature as computers become more powerful in the future. 
+- It compensates for these powerful computers and slows down hashing speed significantly. 
+- Ultimately slowing down the cracking process until it’s no longer a viable strategy.
+<hr>
 
-- Traversing a K-ary tree requires a similar approach to the breadth first traversal.
-- We are still pushing nodes into a queue, but we are now moving down a list of children of length k, instead of checking for the presence of a left and a right child.
+## **Hashing Passwords: One-Way Road to Security**
+A strong password storage strategy is critical to mitigating data breaches that put the reputation of any organization in danger. Hashing is the foundation of secure password storage.
 
-## Adding a node
+- Storing Passwords is Risky and Complex
+    - A simple approach to storing passwords is to create a table in our database that maps a username with a password. 
+    - When a user logs in, the server gets a request for authentication with a payload that contains a username and a password. 
+    - We look up the username in the table and compare the password provided with the password stored. 
+    - A match gives the user access to the application.
 
-- Because there are no structural rules for where nodes are “supposed to go” in a binary tree, it really doesn’t matter where a new node gets placed.
 
-- One strategy for adding a new node to a binary tree is to fill all “child” spots from the top down.
-- To do so, we would leverage the use of breadth first traversal.
-- During the traversal, we find the first node that does not have all it’s children filled, and insert the new node as a child.
-- We fill the child slots from left to right.
+- What's Hashing About?
 
-* In the event you would like to have a node placed in a specific location, you need to reference both the new node to create, and the parent node upon which the child is attached to.
+>*In cryptography, a hash function is a mathematical algorithm that maps data of any size to a bit string of a fixed size. We can refer to the function input as message or simply as input.*
 
-## Big O
+>The fixed-size string function output is known as the hash or the message digest. As stated by OWASP, hash functions used in cryptography have the following key properties:
 
-- The Big O time complexity for inserting a new node is `O(n)`. Searching for a specific node will also be `O(n)`. Because of the lack of organizational structure in a Binary Tree, the worst case for most operations will involve traversing the entire tree. If we assume that a tree has `n` nodes, then in the worst case we will have to look at `n` items, hence the `O(n)` complexity.
+    - It's easy and practical to compute the hash, but "difficult or impossible to re-generate the original input if only the hash value is known."
+    - It's difficult to create an initial input that would match a specific desired output.
 
-- The Big O space complexity for a node insertion using breadth first insertion will be `O(w)`, where `w` is the largest width of the tree. For example, in the above tree, `w` is 4.
 
-- A “perfect” binary tree is one where every non-leaf node has exactly two children. The maximum width for a perfect binary tree, is `2^(h-1)`, where `h` is the height of the tree.
+![img](https://images.ctfassets.net/23aumh6u8s0i/ES2U6Gx7w0yVF9Asidr26/75531c3695f09272142b543a94acc0de/hash-flow)
 
-- Height can be calculated as `log n`, where `n` is the number of nodes.
+- Cryptographic Hash Functions are Practically Irreversible
+>Hash functions behave as one-way functions by using mathematical operations that are extremely difficult and cumbersome to revert such as the modulo operator.
 
-## Binary Search Trees:
+- A Small Change Has a Big Impact
+```java
+from hashlib import sha256
+h = sha256()
+h.update(b'<STRING>')
+hash = h.hexdigest()
+print(hash)
+```
+- Using Cryptographic Hashing for More Secure Password Storage
+> Whereas the transmission of the password should be encrypted, the password hash doesn't need to be encrypted at rest. When properly implemented, password hashing is cryptographically secure. `This implementation would involve the use of a salt to overcome the limitations of hash functions.`
 
-- A Binary Search Tree `(BST)` is a type of tree that does have some structure attached to it.
-- In a BST, nodes are organized in a manner where all values that are smaller than the `root` are placed to the left, and all values that are larger than the `root` are placed to the right.
 
-### Searching a BST
 
-- Searching a `BST` can be done quickly, because all you do is compare the node you are searching for against the root of the tree or sub-tree. If the value is smaller, you only traverse the left side. If the value is larger, you only traverse the right side.
+- Limitations of Hash Functions
+> The attacker could then either steal the cleartext password from the user through modern phishing and spoofing techniques or try a brute force attack where the attacker inputs random passwords into the hash function until a matching hash is found.
 
-**The best way to approach a BST search is with a `while` loop. We cycle through the while loop until we hit a leaf, or until we reach a match with what we’re searching for.**
 
-#### Big O
+- No Need for Speed
+> A well-intended user won't have a noticeable performance impact when trying a single valid login.
 
-The Big O time complexity of a Binary Search Tree’s insertion and search operations is `O(h)`, or `O(height)`. In the worst case, we will have to search all the way down to a leaf, which will require searching through as many nodes as the tree is tall. In a balanced (or “perfect”) tree, the height of the tree is `log(n)`. In an unbalanced tree, the worst case height of the tree is `n`.
+- Collision Attacks Deprecate Hash Functions
+![IMG](https://images.ctfassets.net/23aumh6u8s0i/42yHOvIZclBjHBUuWRIXDN/de827a6af59f7a647db421daea5bce3c/Collision-illustrated)
 
-The Big O space complexity of a BST search would be `O(1)`. During a search, we are not allocating any additional space.
+### Summary:
+- The core purpose of hashing is to create a fingerprint of data to assess data integrity.
+- A hashing function takes arbitrary inputs and transforms them into outputs of a fixed length.
+- To qualify as a cryptographic hash function, a hash function must be pre-image resistant and collision resistant.
+- Due to rainbow tables, hashing alone is not sufficient to protect passwords for mass exploitation. To mitigate this attack vector, hashing must integrate the use of cryptographic salts.
+- Password hashing is used to verify the integrity of your password, sent during login, against the stored hash so that your actual password never has to be stored.
+- Not all cryptographic algorithms are suitable for the modern industry. At the time of this writing, MD5 and SHA-1 have been reported by Google as being vulnerable due to collisions. The SHA-2 family stands as a better option
+
+
+
+
+
