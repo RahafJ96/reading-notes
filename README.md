@@ -93,7 +93,7 @@ ___
 | Read 14 - BCrypt | [Link](401/read14.md)|
 | Read 15 - Trees | [Link](401/read15.md)|
 | Read 16 - Spring Authentication | [Link](401/read16.md)|
-| Read 17 - Spring Authentication | [Link](401/read17.md)|
+| Read 17 - Spring Authentication 2| [Link](401/read17.md)|
 | Read 18 - Web App Security | [Link](401/read18.md)|
 | Read 19 - Spring and Sockets | [Link](401/read19.md)|
 | Read 26 - Android Fundamentals | [Link](401/read20.md)|
