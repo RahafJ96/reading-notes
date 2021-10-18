@@ -1,6 +1,6 @@
 # Web App Security
 
-## Hibernate Many to Many
+## [Hibernate Many to Many](https://www.baeldung.com/hibernate-many-to-many)
 ### Hibernate Many to Many Annotation Tutorial
 In this quick tutorial, we'll have a quick look at how the `@ManyToMany` annotation can be used for specifying this type of relationships in Hibernate.
 
