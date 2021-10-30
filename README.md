@@ -96,24 +96,24 @@ ___
 | Read 17 - Spring Authentication 2| [Link](401/read17.md)|
 | Read 18 - Web App Security | [Link](401/read18.md)|
 | Read 19 - Spring and Sockets | [Link](401/read19.md)|
-| Read 26 - Android Fundamentals | [Link](401/read20.md)|
-| Read 27 - Intents, Activities, and SharedPreferences | [Link](401/read21.md)|
-| Read 28 - RecyclerView | [Link](401/read22.md)|
-| Read 29 - Room | [Link](401/read23.md)|
-| Read 30 - Hash Tables | [Link](401/read24.md)|
-| Read 31 - Espresso | [Link](401/read25.md)|
-| Read 32 - Serverless and Amplify | [Link](401/read26.md)|
-| Read 33 - GraphQL @connection | [Link](401/read27.md)|
-| Read 34 - Monetization | [Link](401/read28.md)|
-| Read 35 - Graphs | [Link](401/read29.md)|
-| Read 36 - Cognito | [Link](401/read30.md)|
-| Read 37 - S3 | [Link](401/read30.md)|
-| Read 38 - Notifications | [Link](401/read30.md)|
-| Read 39 - Kinesis | [Link](401/read30.md)|
-| Read 40 -   ----  | [Link](401/read30.md)|
-| Read 41 - Intent Filters | [Link](401/read30.md)|
-| Read 42 - Location | [Link](401/read30.md)|
-| Read 42 - Class 42 - Ethics in Tech | [Link](401/read30.md)|
-| Read 43 - Kinesis & Analytics | [Link](401/read30.md)|
-| Read 43 - Class 43 - OSS Contributions | [Link](401/read30.md)|
-| Read 44 - Monetiza`tion | [Link](401/read30.md)|
+| Read 26 - Android Fundamentals | [Link](401/read26.md)|
+| Read 27 - Intents, Activities, and SharedPreferences | [Link](401/read27.md)|
+| Read 28 - RecyclerView | [Link](401/read28.md)|
+| Read 29 - Room | [Link](401/read29.md)|
+| Read 30 - Hash Tables | [Link](401/read30.md)|
+| Read 31 - Espresso | [Link](401/read31.md)|
+| Read 32 - Serverless and Amplify | [Link](401/read32.md)|
+| Read 33 - GraphQL @connection | [Link](401/read33.md)|
+| Read 34 - Monetization | [Link](401/read34.md)|
+| Read 35 - Graphs | [Link](401/read35.md)|
+| Read 36 - Cognito | [Link](401/read36.md)|
+| Read 37 - S3 | [Link](401/read37.md)|
+| Read 38 - Notifications | [Link](401/read38.md)|
+| Read 39 - Kinesis | [Link](401/read39.md)|
+| Read 40 -   ----  | [Link](401/read39.md)|
+| Read 41 - Intent Filters | [Link](401/read40.md)|
+| Read 42 - Location | [Link](401/read41.md)|
+| Read 42 - Class 42 - Ethics in Tech | [Link](401/read42.md)|
+| Read 43 - Kinesis & Analytics | [Link](401/read43.md)|
+| Read 43 - Class 43 - OSS Contributions | [Link](401/read43.md)|
+| Read 44 - Monetiza`tion | [Link](401/read44.md)|
