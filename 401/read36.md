@@ -18,7 +18,6 @@
 ? Do you want to configure advanced settings?
     `No, I am done.`v
 ```
-
 `amplify push`
 
 - **Install Amplify Libraries**
