@@ -5,7 +5,6 @@
 - The Amplify Auth category provides an interface for authenticating a user. 
 
 
-
 ### Getting started
 
 `amplify add auth`
