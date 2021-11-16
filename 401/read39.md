@@ -1,7 +1,7 @@
 # [Kinesis](https://docs.amplify.aws/lib/analytics/getting-started/q/platform/android/)
 * With Amazon Kinesis, you can ingest real-time data such as video, audio, application logs, website clickstreams, and IoT telemetry data for machine learning, analytics, and other applications. Amazon Kinesis enables you to process and analyze data as it arrives and respond instantly instead of having to wait until all your data is collected before the processing can begin.
 
-**Set up Analytics backend**
+### Set up Analytics backend
 
 Run the following command in your project's root folder:
 1. `amplify add analytics`
@@ -19,12 +19,12 @@ Run the following command in your project's root folder:
 2. `amplify push`
 
 
-## Prerequisites
+### Prerequisites
 - [Install and configure Amplify CLI](https://docs.amplify.aws/cli/start/install/)
 - An Android application targeting Android API level 16 (Android 4.1) or above.
 [project setup walkthrough](https://docs.amplify.aws/lib/project-setup/create-application/q/platform/android/)
 
-## Install Amplify Libraries
+### Install Amplify Libraries
 - Inside `build.gradle (Module: app)`:
 ```
 dependencies {
@@ -34,7 +34,7 @@ dependencies {
 }
 ```
 
-## Initialize Amplify Analytics
+### Initialize Amplify Analytics
 
 
 - How the class should look like :
@@ -58,7 +58,7 @@ public class MyAmplifyApp extends Application {
 }
 ```
 
-## Record events
+#### Record events
 
 ```
 AnalyticsEvent event = AnalyticsEvent.builder()
@@ -72,5 +72,5 @@ AnalyticsEvent event = AnalyticsEvent.builder()
 Amplify.Analytics.recordEvent(event);
 ```
 
-## View Analytics console
+### View Analytics console
 `amplify console analytics`
